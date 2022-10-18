@@ -1,0 +1,129 @@
+@font-face {
+    font-family: Spartan;
+    src: url(../fonts/Spartan/Spartan-Regular.ttf);
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: Spartan;
+    src: url(../fonts/Spartan/Spartan-Bold.ttf);
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: Spartan;
+    src: url(../fonts/Spartan/Spartan-SemiBold.ttf);
+    font-weight: 600;
+  }
+
+  @font-face {
+    font-family: Spartan;
+    src: url(../fonts/Spartan/Spartan-Light.ttf);
+    font-weight: 300;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-size: 12px;
+    font-family: "Spartan", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #0583d2;
+}
+
+main{
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.9rem 5rem;
+    background-color: #333333;
+}
+
+.nav-container{
+    flex-grow: 1;
+    flex-basis: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+
+.flex-right{
+    justify-content: flex-end;
+}
+
+
+.nav-item{
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item:hover{
+font-weight: 600;
+}
+
+.header-logo{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.header-logo > a > img{
+    height: 3rem;
+}
+
+.hero-section{
+    width: 100%;
+    height: calc(100vh - 5.1rem);
+    background-image: url("../images/hero-bg.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4rem 6rem;
+}
+
+.hero-paragraph{
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 0.9rem;
+}
+
+.btn{
+    padding: 0.9rem 1.25rem;
+    border-radius: 7px;
+    font-size: 1.4rem;
+    background-color: #0583d2;
+    outline: 0;
+    border: 0;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    filter: brightness(0.7);
+}
+
+.menu-bar{
+    display: none;
+}
+
+.menu-bar > svg{
+    height: 2.3rem;
+}

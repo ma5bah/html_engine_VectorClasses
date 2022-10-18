@@ -1,13 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home | Vector Classes</title>
+  <link rel="icon" href="./public/vc_logo.png" type="image/icon type">
+
+  <link rel="stylesheet" href="./src/style/main.css" />
+  <link rel="stylesheet" href="./src/style/responsive.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav>
+    <!-- Navbar Left -->
+    <div class="nav-container">
+      <a href="#">
+        <div class="nav-item active">Home</div>
+      </a>
+      <a href="#">
+        <div class="nav-item">Teachers</div>
+      </a>
+      <a href="#">
+        <div class="nav-item">Students</div>
+      </a>
+      <a href="#">
+        <div class="nav-item">Resources</div>
+      </a>
+    </div>
+    <!-- Navbar Left -->
+
+    <!-- Logo -->
+    <div class="header-logo">
+      <a href="#">
+        <img src="./src/images/header-logo.png" alt="header logo" />
+      </a>
+    </div>
+    <!-- Logo -->
+
+    <!-- Nav Right-->
+    <div class="nav-container flex-right">
+      <a href="#">
+        <div class="nav-item">Contact</div>
+      </a>
+      <a href="#">
+        <div class="nav-item">About</div>
+      </a>
+      <a href="#">
+        <div class="nav-item">Login</div>
+      </a>
+    </div>
+    <div class="menu-bar">
+      <!-- Menu list image (hidden for now) -->
+      <svg width="106" height="65" viewBox="0 0 106 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="106" height="13" rx="1" fill="white" />
+        <rect y="27" width="106" height="11" rx="1" fill="white" />
+        <rect y="53" width="106" height="12" rx="1" fill="white" />
+      </svg>
+      <!-- Menu list image -->
+    </div>
+    <!-- Nav Right-->
+  </nav>
+  <!-- Navbar -->
+
+  <!-- main -->
+  <main>
+    <!-- Hero -->
+    <div class="hero-section">
+      <span class="hero-paragraph">A place to <strong>test</strong> yourself,
+        <strong>build</strong> yourself &
+        <strong>prepare</strong> yourself.</span>
+      <button class="btn hero-button" onclick="window.location.href='https://www.facebook.com/vectorclassesofficial';">Join Now</button>
+    </div>
+
+    <!-- Hero -->
+  </main>
+  <!-- main -->
+
+  <!-- footer -->
+  <!-- footer -->
+</body>
+
 </html>

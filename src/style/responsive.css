@@ -1,0 +1,15 @@
+@media only screen and (max-width: 768px) {
+    nav{
+        padding: 0.8rem 1.2rem;
+    }
+    .nav-container{
+        display: none;
+    }
+
+    /* .menu-bar{
+        display: flex;
+        align-self: flex-end;
+        align-items: center;
+        justify-content: center;
+    } */
+}
